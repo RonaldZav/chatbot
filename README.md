@@ -11,7 +11,7 @@ npm install @ronaldzav/chatbot
 
 
 ```js
-const ChatGeneration = require('@ronaldzav/chatbot');
+const { ChatGeneration } = require('@ronaldzav/chatbot');
 
 const chat = new ChatGeneration()
     .setName("Roni Bot")

@@ -1,6 +1,6 @@
 {
   "name": "@ronaldzav/chatbot",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Generar respuestas automáticas basadas en un conjunto de opciones de entrada y salida, y también permite realizar cálculos matemáticos simples a partir de texto.",
   "main": "src/index.js",
   "directories": {
