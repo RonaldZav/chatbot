@@ -1,5 +1,5 @@
 # 🤖 CHATBOT
-CHATBOT permite generar respuestas automáticas basadas en un conjunto de opciones de entrada y salida, y también permite realizar cálculos matemáticos simples a partir de texto.
+Generar respuestas automáticas basadas en un conjunto de opciones de entrada y salida, y también permite realizar cálculos matemáticos simples a partir de texto.
 
 ## Instalación
 Asegúrate de que tienes Node.js instalado. Luego, puedes instalar este paquete en tu proyecto ejecutando:
@@ -8,7 +8,7 @@ Asegúrate de que tienes Node.js instalado. Luego, puedes instalar este paquete 
 npm install @ronaldzav/chatbot
 ```
 ## 🛠️ Uso
-Importar la libreria.
+
 
 ```js
 const ChatGeneration = require('@ronaldzav/chatbot');

@@ -1,0 +1,21 @@
+{
+  "name": "@ronaldzav/chatbot",
+  "version": "1.0.0",
+  "description": "Generar respuestas automáticas basadas en un conjunto de opciones de entrada y salida, y también permite realizar cálculos matemáticos simples a partir de texto.",
+  "main": "src/index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node test/test.js"
+  },
+  "author": "ronaldzav",
+  "license": "GPL-3.0",
+  "repository": {
+    "type": "git",
+    "url": "github.com/RonaldZav/chatbot.git"
+  },
+  "keywords": [
+    "chatbot"
+  ]
+}
