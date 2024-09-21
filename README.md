@@ -43,21 +43,21 @@ Define qué tan precisa debe ser la comparación entre el mensaje del usuario y 
 Conjunto de opciones que contienen entradas posibles del usuario y las respuestas correspondientes.
 
 ## 📬 Métodos
-### setName(name: string): ChatGeneration
+### setName(name: string):
 
 Establece el nombre que se utilizará en las respuestas. Retorna la instancia para permitir encadenamiento de métodos.
 ```js
 chat.setName("Roni Bot");
 ```
 
-### setAccuracy(accuracy: number): ChatGeneration
+### setAccuracy(accuracy: number):
 
 Define la precisión para las respuestas. Cuanto más alto el valor, más exacta debe ser la coincidencia de texto con las entradas definidas. El valor debe estar entre 0 y 100.
 ```js
 chat.setAccuracy(50); // Se requiere una coincidencia del 50%
 ```
 
-### setOptions(options: array): ChatGeneration
+### setOptions(options: array):
 
 Define las posibles entradas y respuestas del chat. Cada opción es un objeto que contiene un arreglo input con posibles entradas del usuario y un arreglo output con posibles respuestas.
 
